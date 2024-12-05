@@ -14,7 +14,7 @@ import json,os
 
 
 # SQLAlchemy 엔진 생성
-DATABASE_URL = f"mysql+pymysql://user:1234@192.168.254.10:3306/db"
+DATABASE_URL = f"mysql+pymysql://user:1234@10.104.121.231:3306/db"
 
 os.environ['DATABASE_URL'] = DATABASE_URL
 
